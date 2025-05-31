@@ -1,16 +1,32 @@
-# flutter_exemplo_armazenamento
+# 💾 Armazenamento Local no Flutter
 
-A new Flutter project.
+Este projeto demonstra como **salvar dados localmente em Flutter** utilizando duas abordagens distintas, ideais para diferentes cenários de uso:
 
-## Getting Started
+- [`SharedPreferences`](https://pub.dev/packages/shared_preferences): para salvar dados simples e não sensíveis, como preferências do usuário, flags, temas, etc.
+- [`FlutterSecureStorage`](https://pub.dev/packages/flutter_secure_storage): para salvar dados sensíveis de forma segura e criptografada, como tokens de autenticação, senhas e dados confidenciais.
 
-This project is a starting point for a Flutter application.
+> 🧠 O projeto utiliza boas práticas de arquitetura com `ChangeNotifier`, `ViewModel`, `Service Abstraction`, e componentes reutilizáveis de feedback visual.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📚 Artigo no Medium
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para uma explicação completa com exemplos práticos, leia o artigo:
+
+👉 [Flutter: Como salvar localmente usando SharedPreferences ou Flutter Secure Storage](https://medium.com/@gabriel.araujo.caires/flutter-como-salvar-localmente-usando-shared-preferences-ou-flutter-secure-storage-4ba349f9c8dd)
+
+---
+
+## 🚀 Funcionalidades
+
+- ✅ Criar, ler, atualizar e excluir dados com `SharedPreferences`.
+- 🔐 Armazenamento seguro com `FlutterSecureStorage`.
+- 📦 Serviços genéricos reutilizáveis e desacoplados.
+- 🧠 Gerenciamento de estado com `ChangeNotifier`.
+- 🛠 Arquitetura limpa e modularizada.
+- 📲 Feedback visual com SnackBars customizados.
+- 💡 Pronto para testes unitários e injeção de dependência.
+
+---
+
+![Exemplo de armazenamento local no Flutter](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*CTejC1v9tUwjj1oYiSsYvA.png)
